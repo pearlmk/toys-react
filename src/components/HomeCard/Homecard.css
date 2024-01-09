@@ -1,0 +1,12 @@
+.homecard:first-child{
+    background: #ff6969 !important;
+}
+.homecard:nth-child(2){
+    background: #ee7214 !important;
+}
+.homecard:nth-child(3){
+    background: #b0a4a4 !important;
+}
+.homeContant{
+    font-size: calc(0.5rem + .7vw);
+}

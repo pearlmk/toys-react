@@ -1,0 +1,32 @@
+.productOfferCardOrange{
+    background: #ffa632cd !important;
+    color: #ffa732;
+    border-color: #ffa632cd;
+}
+.productOfferCardPink{
+    background: #ff90c2 !important;
+    color: #ff90c2;
+    border-color: #ff90c2;
+}
+.productOfferCardVoilet{
+    background: #7e30e1 !important;
+    color: #7e30e1;
+    border-color: #7e30e1;
+}
+
+
+
+
+@media screen and (min-width: 1020px) {
+ 
+    .NewScootersText{
+        position: relative;
+        top: 15;
+        left: 30px;
+    }
+    .NewScootersImg{
+        position: relative;
+        top: -25px;
+        left: 10px;
+    }
+}

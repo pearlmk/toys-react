@@ -1,0 +1,7 @@
+.hover-effect:hover{
+   border-bottom:  1px solid rgb(97, 96, 96);
+   padding: 0 0 5px 0;
+}
+.contact-underline{
+   border-bottom:  1px solid #65b741;
+}
