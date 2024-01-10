@@ -3,7 +3,7 @@ import AgeImage from "../inc/AgeImage/AgeImage";
 
 function Age() {
   return (
-    <div className="container overflow-hidden">
+    <div className="container-xxl overflow-hidden">
       <div className="text-center ">
         <h2 className="display-6 fw-normal">Toys By Age</h2>
         <dl>Choose Your Category</dl>

@@ -15,6 +15,7 @@ function Header() {
           <Container fluid>
             <Navbar.Toggle  className="fs-6" aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
+            
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
@@ -24,9 +25,9 @@ function Header() {
                   Toys
                 </Offcanvas.Title>
               </Offcanvas.Header>
-              <Offcanvas.Body className='pe-5'>
-                <Nav className="justify-content-end flex-grow-1 pe-5 py-md-4" variant='underline'>
-                  <Nav.Link href="#">Home</Nav.Link>
+              <Offcanvas.Body className='pe-md-4 w-100'>
+                <Nav className="justify-content-end flex-grow-1 pe-md-5 py-md-4 w-100" variant='underline'>
+                  <Nav.Link className='' href="#">Home</Nav.Link>
                   <Nav.Link href="#">About</Nav.Link>
                   <NavDropdown
                     title="Shop"

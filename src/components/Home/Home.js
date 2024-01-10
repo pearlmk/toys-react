@@ -4,8 +4,9 @@ import './Home.css'
 
 function Home() {
   return (
-    <div className='container-fluid overflow-hidden'>
-     <div className='row bg-success'>
+    <div className='container-fluid bg-success'>
+    <div className='container overflow-hidden'>
+     <div className='row'> 
     <div className='col-12 col-md-6'>
       <div className='mt-5 ms-md-5 py-md-3 pt-lg-2 d-grid justify-content-center overflow-hidden'>
           <h4 className='text-light fw-semibold h4'>Handmade</h4>
@@ -20,6 +21,7 @@ function Home() {
        <img  src={VickyMouse} alt=''  className='object-fit img-fluid h-100'/>
     </div>
      </div>
+    </div>
     </div>
   )
 }

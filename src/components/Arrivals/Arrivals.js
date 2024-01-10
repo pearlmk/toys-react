@@ -3,7 +3,7 @@ import Arriavalscard from '../inc/Arrivalscard/Arriavalscard'
 
 function Arrivals() {
   return (
-    <div className='container-fluid my-3 overflow-hidden'>
+    <div className='container-xxl my-3 overflow-hidden'>
         <div className='row'>
                   <div className='text-center'>
                     <h2 className='display-6 fw-normal'>New Arrivals</h2>

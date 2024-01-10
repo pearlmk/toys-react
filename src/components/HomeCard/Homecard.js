@@ -13,7 +13,7 @@ function Homecard() {
 
 
   return (
-    <div className='container-fluid px-1 px-lg-5 overflow-hidden'>
+    <div className='container-xxl px-1 px-lg-5 overflow-hidden'>
     <div className='row d-flex flex-column flex-md-row justify-content-evenly my-2 my-md-5'>
         { homeCard.map(item => (
        <Card className='col-10 col-md-3 homecard  rounded-4 shadow border-0 mx-auto mx-md-0 my-2 my-md-0' key={item.id} >
