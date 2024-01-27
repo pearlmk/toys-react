@@ -18,7 +18,7 @@ function Productcard() {
       Productcard.map( item => (
       <div className="col-12 col-lg-6 h-100">
       <div className="card border-0 mx-auto">
-        <img src={item.scr} className="card-img-top object-fit shadow-sm rounded-3 p-4" width={150} height={200} style={{background: '#f4f2eab8'}} alt="" />
+        <img src={item.scr} className="card-img-top object-fit shadow-sm rounded-3 p-3 p-md-4" width={150} height={200} style={{background: '#f4f2eab8'}} alt="" />
         <div className="card-body text-center">
           <p className="card-text fw-bold text-nowrap">
           {item.name} <br />

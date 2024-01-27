@@ -25,7 +25,7 @@ function Awardwin() {
                 className="object-fit img-fluid"
                 width={350}
                 alt=""
-                style={{ position: "relative", top: "-58px" }}
+                style={{ position: "relative", top: "-58px"}}
               />
             </div>
           </div>
@@ -34,8 +34,9 @@ function Awardwin() {
           <img
             src={image23}
             className="object-fit img-fluid"
-            width={350}
+            // width={350}
             alt=""
+            style={{maxWidth:'60%'}}
           />
         </div>
       </div>
